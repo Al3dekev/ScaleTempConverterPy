@@ -2,6 +2,7 @@
 
 class UserCallConverter:
 
+    # Default values added for Py reasons.
     def __init__(self):
         self.SelNum = 1
         self.SelScaleF = "C"
