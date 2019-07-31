@@ -3,9 +3,9 @@
 class UserCallConverter:
 
     def __init__(self):
-        self.SelNum
-        self.SelScaleF
-        self.selScaleT
+        self.SelNum = 1
+        self.SelScaleF = "C"
+        self.selScaleT = "F"
 
 
     def selectNumToConvert(self):
