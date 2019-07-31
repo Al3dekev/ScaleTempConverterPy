@@ -2,7 +2,7 @@ class Beginning:
 
     def __init__(self):
         self.AppName = "ScaleTempConverter"
-        self.welcomeMsg = "Welcome to"+self.AppName+". Enjoy !"
+        self.welcomeMsg = "Welcome to "+self.AppName+". Enjoy !"
 
     def welcome(self):
         print(self.getWelcomeMsg())
