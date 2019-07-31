@@ -13,11 +13,11 @@ class UserCallConverter:
         return self.getSelNum()
 
     def selectScaleFrom(self):
-        self.setSelScaleF(input("What Scale this number is from?"))
+        self.setSelScaleF(input("What Scale this number is from?[°C/°F/K] "))
         return self.getSelScaleF()
 
     def selectScaleTo(self):
-        self.setselScaleT(input("What will be the new Scale?"))
+        self.setselScaleT(input("What will be the new Scale?[°C/°F/K] "))
         return self.getselScaleT()
 
 
